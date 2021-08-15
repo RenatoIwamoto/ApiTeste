@@ -133,7 +133,7 @@ Write(Html.ActionLink("Editar", "Edit", new { id = Model.IdCategoria }));
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(837, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e295ae29cf54463a8a8c448ca10548e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8a0d6dda873e43a4bad30ea38c314b0d", async() => {
                 BeginContext(859, 8, true);
                 WriteLiteral("< Voltar");
                 EndContext();

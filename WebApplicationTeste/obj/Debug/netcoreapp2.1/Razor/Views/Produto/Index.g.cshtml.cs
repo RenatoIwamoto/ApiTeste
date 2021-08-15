@@ -63,7 +63,7 @@ using WebApplicationTeste.Models;
             WriteLiteral("\r\n<h2>Produtos</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(135, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "afd6261c55204713aedc90177d8e25d1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3ec6635a66a54264b4142743fefa919b", async() => {
                 BeginContext(158, 14, true);
                 WriteLiteral("+ Novo Produto");
                 EndContext();
