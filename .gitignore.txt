@@ -1,4 +1,13 @@
-.vs/
+.vs/ApiTeste/DesignTimeBuild/.dtbcache
+.vs/ApiTeste/v15/.suo
+.vs/ApiTeste/v15/Server/sqlite3/db.lock
+.vs/ApiTeste/v15/Server/sqlite3/storage.ide
+.vs/ApiTeste/v15/Server/sqlite3/storage.ide-shm
+.vs/ApiTeste/v15/Server/sqlite3/storage.ide-wal
+.vs/VSWorkspaceState.json
+.vs/config/applicationhost.config
+.vs/slnx.sqlite
+
 WebApplicationTeste/bin/Debug/netcoreapp2.1/WebApplicationTeste.Views.dll
 WebApplicationTeste/bin/Debug/netcoreapp2.1/WebApplicationTeste.Views.pdb
 WebApplicationTeste/obj/Debug/netcoreapp2.1/Razor/Views/Categoria/Create.g.cshtml.cs
