@@ -1,0 +1,59 @@
+﻿@model IEnumerable<WebApplicationTeste.Models.ProdutoData>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Produtos</h2>
+
+<p>
+    <a asp-action="Create">+ Novo Produto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdProduto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeProduto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataCadastro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCategoria)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdProduto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeProduto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataCadastro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCategoria)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id=item.IdProduto }) |
+                @Html.ActionLink("Detalhes", "Details", new { id=item.IdProduto }) |
+                @Html.ActionLink("Excluir", "Delete", new { id=item.IdProduto })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
