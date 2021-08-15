@@ -63,7 +63,7 @@ using WebApplicationTeste.Models;
             WriteLiteral("\r\n<h2>Categorias</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(139, 43, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6aa4994166f54ed2bfef2be9ffc134d6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b958d859fe0945e595ba3e6233998ed9", async() => {
                 BeginContext(162, 16, true);
                 WriteLiteral("+ Nova Categoria");
                 EndContext();
